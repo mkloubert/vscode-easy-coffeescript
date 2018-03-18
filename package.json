@@ -2,7 +2,7 @@
     "name": "vscode-easy-coffeescript",
     "displayName": "Easy CoffeeScript",
     "description": "Compiles CoffeeScript files on save.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "mkloubert",
     "engines": {
         "vscode": "^1.20.0"

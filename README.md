@@ -38,7 +38,7 @@ Or search for things like `vscode-easy-coffeescript` in your editor.
 
 Open (or create) your `settings.json` in your `.vscode` subfolder of your workspace.
 
-Add a `deploy.reloaded` section and one or more "watchers":
+Add a `coffeescript.compile` section and one or more "watchers":
 
 ```json
 {
