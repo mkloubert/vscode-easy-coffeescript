@@ -2,7 +2,7 @@
     "name": "vscode-easy-coffeescript",
     "displayName": "Easy CoffeeScript",
     "description": "Compiles CoffeeScript files on save.",
-    "version": "1.0.1",
+    "version": "1.2.0",
     "publisher": "mkloubert",
     "engines": {
         "vscode": "^1.20.0"
@@ -107,23 +107,20 @@
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "@types/fs-extra": "^5.0.1",
-        "@types/glob": "^5.0.35",
-        "@types/lodash": "^4.14.105",
-        "@types/marked": "^0.3.0",
-        "@types/minimatch": "^3.0.3",
+        "@types/fs-extra": "^5.0.2",
+        "@types/lodash": "^4.14.108",
         "@types/mocha": "^2.2.42",
-        "@types/node": "^7.0.43",
-        "tslint": "^5.8.0",
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6"
+        "@types/node": "^7.0.64",
+        "tslint": "^5.10.0",
+        "typescript": "^2.8.3",
+        "vscode": "^1.1.17"
     },
     "dependencies": {
-        "coffeescript": "^2.2.3",
+        "coffeescript": "^2.3.0",
         "fs-extra": "^5.0.0",
-        "lodash": "^4.17.5",
+        "lodash": "^4.17.10",
         "merge-deep": "^3.0.1",
-        "vscode-helpers": "^0.19.0"
+        "vscode-helpers": "^0.21.0"
     },
     "icon": "icon.png",
     "badges": [
