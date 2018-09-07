@@ -218,8 +218,7 @@ class Workspace extends vscode_helpers.WorkspaceBase {
             if (!CFG_OPTS.inlineMap && CFG_OPTS.sourceMap) {
                 js += `
 
-//# sourceMappingURL=${ SOURCE_MAP_FILE_NAME }
-//# sourceURL=coffeescript`;
+//# sourceMappingURL=${ SOURCE_MAP_FILE_NAME }`;
             }
             
             // write JavaScript file
